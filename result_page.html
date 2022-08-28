@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <style>
+            table {
+                border-collapse:collapse;
+                width: 50%;
+            }
+
+            td,th{
+                border: 1px solid;
+                test-align: left;
+                padding: 5px
+            }
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+        </style>
+</head>
+
+<body>
+    <center>
+        <h1>
+            Employee details
+        </h1>
+    </center>
+
+    {% if result %}
+        <table_id="" style="width:50%">
+<table>
+    <tr>
+        <th>Employee name</th>
+        <th>Department</th>
+    </tr>
+
+    {% for row in result %}
+
+    <tr>
+        <td> {{ row.Employee_name }}</td>
+        <td> {{ row.Department }}</td>
+    </tr>
+
+    {% endfor %}
+</table>
+    </table>
+    {% else %}
+    <br>
+    <h3>No data for the given search</h3>
+    {% endif %}
+    <br>
+    <br>
+    <button onclick="history.back()">Go Back for New Search</button>
+</body>
+</html>

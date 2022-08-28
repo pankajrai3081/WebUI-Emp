@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+{% if login_result %}
+
+<center>
+        <h1> Employee search</h1>
+
+        <div class="container">
+            <form action="http://127.0.0.1:5000/result_page" method="POST">
+                <input type="number" pattern="[0-9]" name="id_entered" class="btn" placeholder="Enter Employee ID" />
+                <br>
+
+                <input type="text"  name="name_entered" class="btn" placeholder="Enter Employee Name" />
+                <br>
+
+                <input type="number" pattern="[0-9]" name="dep_entered" class="btn" placeholder="Enter Employee Department" />
+                <br>
+                <br>
+                <input type="submit" name="search" class="btn" value="Search" />
+            </form>
+        </div>
+
+{% else %}
+<h2> Invalid Login, try again </h2>
+<br>
+    <button onclick="history.back()">Go Back to Login Page</button>
+{% endif %}
+
+</body>
+</html>
