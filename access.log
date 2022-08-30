@@ -1,0 +1,70 @@
+2022-08-03 22:59:17,592 INFO emp MainThread : DB connection success
+2022-08-03 22:59:17,595 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 22:59:31,823 INFO emp Thread-1 (process_request_thread) : Web page opened for user login
+2022-08-03 22:59:31,830 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 22:59:31] "GET / HTTP/1.1" 200 -
+2022-08-03 22:59:56,262 INFO emp Thread-2 (process_request_thread) : Web page opened for new account creation and login for the existing users
+2022-08-03 22:59:56,264 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 22:59:56] "POST /register_page HTTP/1.1" 200 -
+2022-08-03 23:00:13,818 INFO emp Thread-3 (process_request_thread) : New account created for user: pankaj
+2022-08-03 23:00:13,821 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:00:13] "POST /post_registration HTTP/1.1" 200 -
+2022-08-03 23:00:57,789 INFO emp Thread-4 (process_request_thread) : User: pankaj logged in successfully
+2022-08-03 23:00:57,789 INFO emp Thread-4 (process_request_thread) : Login successful
+2022-08-03 23:00:57,793 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:00:57] "POST / HTTP/1.1" 200 -
+2022-08-03 23:01:17,289 INFO emp Thread-5 (process_request_thread) : Employee details fetched successfully for Employee_id:1, Department_id: and Employee_name:
+2022-08-03 23:01:17,295 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:01:17] "POST /result_page HTTP/1.1" 200 -
+2022-08-03 23:01:52,555 INFO emp Thread-6 (process_request_thread) : Employee details fetched successfully for Employee_id:, Department_id: and Employee_name:jos
+2022-08-03 23:01:52,556 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:01:52] "POST /result_page HTTP/1.1" 200 -
+2022-08-03 23:02:10,606 INFO emp Thread-7 (process_request_thread) : Employee details fetched successfully for Employee_id:, Department_id:109 and Employee_name:
+2022-08-03 23:02:10,607 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:02:10] "POST /result_page HTTP/1.1" 200 -
+2022-08-03 23:02:28,444 INFO emp Thread-8 (process_request_thread) : Employee details fetched successfully for Employee_id:3, Department_id:109 and Employee_name:pa
+2022-08-03 23:02:28,445 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:02:28] "POST /result_page HTTP/1.1" 200 -
+2022-08-03 23:03:33,695 INFO emp Thread-10 (process_request_thread) : Web page opened for user login
+2022-08-03 23:03:33,696 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:03:33] "GET / HTTP/1.1" 200 -
+2022-08-03 23:03:51,796 INFO emp Thread-11 (process_request_thread) : User: pankaj logged in successfully
+2022-08-03 23:03:51,796 INFO emp Thread-11 (process_request_thread) : Login successful
+2022-08-03 23:03:51,797 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:03:51] "POST / HTTP/1.1" 200 -
+2022-08-03 23:04:05,681 INFO emp Thread-12 (process_request_thread) : Employee details fetched successfully for Employee_id:4, Department_id: and Employee_name:
+2022-08-03 23:04:05,682 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:04:05] "POST /result_page HTTP/1.1" 200 -
+2022-08-03 23:04:15,256 INFO emp Thread-13 (process_request_thread) : Web page opened for user login
+2022-08-03 23:04:15,256 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:04:15] "GET / HTTP/1.1" 200 -
+2022-08-03 23:04:18,398 INFO emp Thread-14 (process_request_thread) : Web page opened for new account creation and login for the existing users
+2022-08-03 23:04:18,399 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:04:18] "POST /register_page HTTP/1.1" 200 -
+2022-08-03 23:04:31,848 INFO emp Thread-15 (process_request_thread) : Entered userid: pankaj already present in the system
+2022-08-03 23:04:31,852 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 23:04:31] "POST /post_registration HTTP/1.1" 200 -
+2022-08-04 07:21:35,624 INFO emp MainThread : DB connection success
+2022-08-04 07:21:35,628 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-04 07:21:48,929 INFO emp Thread-1 (process_request_thread) : Web page opened for user login
+2022-08-04 07:21:48,937 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:21:48] "GET / HTTP/1.1" 200 -
+2022-08-04 07:22:26,083 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:22:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-04 07:23:11,868 INFO emp Thread-3 (process_request_thread) : Web page opened for new account creation and login for the existing users
+2022-08-04 07:23:11,870 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:23:11] "POST /register_page HTTP/1.1" 200 -
+2022-08-04 07:23:39,646 INFO emp Thread-4 (process_request_thread) : New account created for user: mohan
+2022-08-04 07:23:39,649 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:23:39] "POST /post_registration HTTP/1.1" 200 -
+2022-08-04 07:24:03,765 INFO emp Thread-5 (process_request_thread) : User: mohan logged in successfully
+2022-08-04 07:24:03,766 INFO emp Thread-5 (process_request_thread) : Login successful
+2022-08-04 07:24:03,770 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:24:03] "POST / HTTP/1.1" 200 -
+2022-08-04 07:25:15,708 INFO emp Thread-7 (process_request_thread) : Employee details fetched successfully for Employee_id:1, Department_id: and Employee_name:
+2022-08-04 07:25:15,713 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:25:15] "POST /result_page HTTP/1.1" 200 -
+2022-08-04 07:31:23,029 INFO emp Thread-9 (process_request_thread) : Web page opened for user login
+2022-08-04 07:31:23,032 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:31:23] "GET / HTTP/1.1" 200 -
+2022-08-04 07:31:31,763 INFO emp Thread-10 (process_request_thread) : User: mohan logged in successfully
+2022-08-04 07:31:31,764 INFO emp Thread-10 (process_request_thread) : Login successful
+2022-08-04 07:31:31,765 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:31:31] "POST / HTTP/1.1" 200 -
+2022-08-04 07:31:38,196 INFO emp Thread-11 (process_request_thread) : Employee details fetched successfully for Employee_id:9, Department_id: and Employee_name:
+2022-08-04 07:31:38,197 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:31:38] "POST /result_page HTTP/1.1" 200 -
+2022-08-04 07:32:39,564 INFO emp Thread-13 (process_request_thread) : Employee details fetched successfully for Employee_id:, Department_id: and Employee_name:jos
+2022-08-04 07:32:39,565 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:32:39] "POST /result_page HTTP/1.1" 200 -
+2022-08-04 07:33:45,012 INFO emp Thread-15 (process_request_thread) : Employee details fetched successfully for Employee_id:, Department_id:109 and Employee_name:
+2022-08-04 07:33:45,013 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:33:45] "POST /result_page HTTP/1.1" 200 -
+2022-08-04 07:36:04,595 INFO emp Thread-18 (process_request_thread) : Web page opened for user login
+2022-08-04 07:36:04,596 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:36:04] "GET / HTTP/1.1" 200 -
+2022-08-04 07:36:16,993 INFO emp Thread-19 (process_request_thread) : Web page opened for new account creation and login for the existing users
+2022-08-04 07:36:16,994 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:36:16] "POST /register_page HTTP/1.1" 200 -
+2022-08-04 07:36:29,658 INFO emp Thread-20 (process_request_thread) : Entered userid: mohan already present in the system
+2022-08-04 07:36:29,662 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:36:29] "POST /post_registration HTTP/1.1" 200 -
+2022-08-04 07:37:07,658 INFO emp Thread-21 (process_request_thread) : New account created for user: moha
+2022-08-04 07:37:07,659 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:37:07] "POST /post_registration HTTP/1.1" 200 -
+2022-08-04 07:37:32,626 INFO emp Thread-22 (process_request_thread) : Login failed due to invalid user_id or password
+2022-08-04 07:37:32,626 INFO emp Thread-22 (process_request_thread) : Login successful
+2022-08-04 07:37:32,627 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:37:32] "POST / HTTP/1.1" 200 -
+2022-08-04 07:37:39,209 INFO emp Thread-23 (process_request_thread) : Web page opened for user login
+2022-08-04 07:37:39,211 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 07:37:39] "GET / HTTP/1.1" 200 -
